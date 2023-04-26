@@ -11,3 +11,6 @@ class Card():
             return False
         
         return self.suit == other.suit and self.number == other.number
+    
+    def __int__(self):
+        return int(self.number)
