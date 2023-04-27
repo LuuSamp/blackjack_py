@@ -14,3 +14,6 @@ class Card():
     
     def __int__(self):
         return int(self.number)
+    
+    def __str__(self):
+        return f"{self.number} {self.suit}"

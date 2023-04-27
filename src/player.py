@@ -7,6 +7,7 @@ class Player:
     def __init__(self, name:str):
         self.name = name
         self.cards = []
+        self.ingame = True
         
     def take_card(self, card:Card):
         self.cards.append(card)
