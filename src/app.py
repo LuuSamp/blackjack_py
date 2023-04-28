@@ -52,3 +52,6 @@ def main():
             continue
         card = deck.get_random()
         print(f"{players[i].name} has drawn {card}")
+        
+if __name__ == "__main__":
+    main()

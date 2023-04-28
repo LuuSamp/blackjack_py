@@ -8,7 +8,7 @@ class Suit(Enum):
     
     def __str__(self):
         match self:
-            case Suit.HEARTS: "HEARTS"
-            case Suit.DIAMONDS: "DIAMONDS"
-            case Suit.SPADES: "SPADES"
-            case Suit.CLUBS: "CLUBS"
+            case Suit.HEARTS: return "HEARTS"
+            case Suit.DIAMONDS: return "DIAMONDS"
+            case Suit.SPADES: return "SPADES"
+            case Suit.CLUBS: return "CLUBS"
