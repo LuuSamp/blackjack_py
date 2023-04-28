@@ -14,7 +14,7 @@ class Player:
         self.cards.append(card)
     
     def score(self):
-        score = sum([int(i) for i in self.cards])
+        score = sum([int(card) for card in self.cards])
         if Number.ACE in [card.number for card in self.cards]:
             if score <= 11:
                 score += 10
