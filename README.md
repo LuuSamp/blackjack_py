@@ -1,6 +1,6 @@
 # BLACKJACK_PY
 
-A simple game of blackjack done to practice OOP in Python! The idea was given by my roommate, who made [his own version][1].
+A simple game of blackjack I made to practice OOP in Python! The idea was given by my roommate, who made [his own version][1].
 
 ## How to Play
 - The program needs to be executed on a terminal through Python's Interpreter
