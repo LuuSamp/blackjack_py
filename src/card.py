@@ -7,9 +7,6 @@ class Card():
         self.number = number
     
     def __eq__(self, other):
-        if not isinstance(other, self):
-            return False
-        
         return self.suit == other.suit and self.number == other.number
     
     def __int__(self):
